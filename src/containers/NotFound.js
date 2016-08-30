@@ -1,4 +1,6 @@
 import React from 'react';
-export default () => (
+import { connect } from 'react-redux';
+
+export default connect(()=>({}), {})(() => (
     <div>404</div>
-);
+));
