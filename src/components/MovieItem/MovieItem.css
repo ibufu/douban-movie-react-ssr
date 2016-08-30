@@ -1,0 +1,17 @@
+.grid_view .pic {
+    color: #bbb;
+    float: left;
+    padding-right: 25px;
+}
+.grid_view .pic em {
+    float: left;
+    padding: 0 10px;
+}
+.grid_view .info {
+    overflow: hidden;
+    zoom: 1;
+}
+.info p {
+    margin: 10px 0;
+    color: #666;
+}

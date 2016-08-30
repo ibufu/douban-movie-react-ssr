@@ -1,0 +1,50 @@
+.movie_detail {
+    width: 660px;
+    margin: 0 auto;
+}
+h1 {
+    word-wrap: break-word;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    color: #494949;
+    margin: 0;
+    padding: 0 0 15px 0;
+    line-height: 1.1;
+}
+h1 .year {
+    color: #888;
+}
+.year {
+    display: inline-block;
+    zoom: 1;
+}
+.clearfix {
+    overflow: hidden;
+    zoom: 1;
+    display: block;
+}
+#mainpic {
+    margin: 3px 0 0 0;
+    float: left;
+    text-align: center;
+    margin: 3px 12px 0 0;
+    max-width: 155px;
+    overflow: hidden;
+}
+#mainpic img {
+    margin-bottom: 10px;
+}
+#info {
+    float: left;
+    max-width: 248px;
+    word-wrap: break-word;
+}
+.pl {
+    font: 12px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    color: #666666;
+}
+.related-info h2 {
+    color: #007722;
+}

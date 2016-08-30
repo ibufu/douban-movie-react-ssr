@@ -1,0 +1,11 @@
+.DS_STORE
+
+/dist/
+/server/dist/
+
+node_modules
+
+.vscode/
+.idea/
+
+npm-debug.log
