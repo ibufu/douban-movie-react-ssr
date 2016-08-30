@@ -34,7 +34,8 @@ module.exports = {
             'process.env': {
                 ENV: JSON.stringify('development'),
                 NODE_ENV: JSON.stringify('development')
-            }
+            },
+            '__NODE__': JSON.stringify(false),
         }),
 
         new webpack.optimize.CommonsChunkPlugin({
